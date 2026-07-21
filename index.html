@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Article Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>AI Article Generator</h1>
+    <p>Generate a 500-word AI-powered article instantly.</p>
+
+    <div class="card">
+
+        <label>Enter Topic</label>
+
+        <input
+            type="text"
+            id="topic"
+            placeholder="Example: Artificial Intelligence"
+        >
+
+        <button id="generateBtn">
+            Generate Article
+        </button>
+
+    </div>
+
+    <div class="loading" id="loading">
+        Generating article...
+    </div>
+
+    <div class="result">
+
+        <h2>Generated Article</h2>
+
+        <div id="output"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
